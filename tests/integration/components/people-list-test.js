@@ -21,6 +21,6 @@ module('Integration | Component | people-list', function(hooks) {
       {{/people-list}}
     `);
 
-    assert.equal(this.element.textContent.trim(), 'template block text');
+    assert.equal(this.element.textContent.trim(), '');
   });
 });
